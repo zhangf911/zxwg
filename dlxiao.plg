@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dlxiaodll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/dlxiaodll.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc\mfc\dlxiao\dlxiaodll\dlxiaodll.rc"" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP451.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/dlxiaodll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc\mfc\dlxiao\dlxiaodll\dlxiaodll.cpp"
+"D:\vc\mfc\dlxiao\dlxiaodll\DlxiaoDllDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP451.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP452.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/dlxiaodll.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc\mfc\dlxiao\dlxiaodll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP452.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP453.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/dlxiaodll.pdb" /machine:I386 /def:".\dlxiaodll.def" /out:"../Release/dlxiaodll.dll" /implib:"Release/dlxiaodll.lib" 
+.\Release\dlxiaodll.obj
+.\Release\DlxiaoDllDlg.obj
+.\Release\StdAfx.obj
+.\Release\dlxiaodll.res
+]
+Creating command line "link.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP453.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dlxiaodll.cpp
+DlxiaoDllDlg.cpp
+D:\vc\mfc\dlxiao\dlxiaodll\DlxiaoDllDlg.cpp(234) : warning C4018: '>' : signed/unsigned mismatch
+Generating Code...
+Linking...
+   Creating library Release/dlxiaodll.lib and object Release/dlxiaodll.exp
+<h3>
+--------------------Configuration: dlxiao - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/dlxiao.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc\mfc\dlxiao\dlxiao.rc"" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP457.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/dlxiao.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc\mfc\dlxiao\dlxiao.cpp"
+"D:\vc\mfc\dlxiao\dlxiaoDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP457.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP458.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/dlxiao.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc\mfc\dlxiao\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP458.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP459.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/dlxiao.pdb" /machine:I386 /nodefaultlib:"libc.lib" /out:"Release/dlxiao.exe" 
+.\Release\dlxiao.obj
+.\Release\dlxiaoDlg.obj
+.\Release\StdAfx.obj
+.\Release\dlxiao.res
+.\MS32.LIB
+.\dlxiaodll\Release\dlxiaodll.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP459.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dlxiao.cpp
+dlxiaoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+dlxiao.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

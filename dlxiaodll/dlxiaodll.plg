@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dlxiaodll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/dlxiaodll.res" /d "_DEBUG" /d "_AFXDLL" "D:\vc\mfc\dlxiao\dlxiaodll\dlxiaodll.rc"" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/dlxiaodll.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vc\mfc\dlxiao\dlxiaodll\dlxiaodll.cpp"
+"D:\vc\mfc\dlxiao\dlxiaodll\DlxiaoDllDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11A.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/dlxiaodll.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vc\mfc\dlxiao\dlxiaodll\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11B.tmp" 
+Creating temporary file "C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11C.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/dlxiaodll.pdb" /debug /machine:I386 /def:".\dlxiaodll.def" /out:"../Debug/dlxiaodll.dll" /implib:"Debug/dlxiaodll.lib" /pdbtype:sept 
+.\Debug\dlxiaodll.obj
+.\Debug\DlxiaoDllDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\dlxiaodll.res
+]
+Creating command line "link.exe @C:\DOCUME~1\xlincn\LOCALS~1\Temp\RSP11C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+dlxiaodll.cpp
+DlxiaoDllDlg.cpp
+D:\vc\mfc\dlxiao\dlxiaodll\DlxiaoDllDlg.cpp(233) : error C2065: 'rwx' : undeclared identifier
+D:\vc\mfc\dlxiao\dlxiaodll\DlxiaoDllDlg.cpp(234) : error C2065: 'rwy' : undeclared identifier
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+dlxiaodll.dll - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
